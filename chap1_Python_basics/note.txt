@@ -1,1 +1,17 @@
-Chapter .
+Chapter .1 - The Basics
+
+**      Exponet
+%       Modular Division
+//      Integer Division/Floored Quotient
+/       Division
+*       Multiplication
+-       Subtraction
++       Addiction
+
+str()   Converts to string
+int()   Converts to int
+float() Converts to float
+
+**
+What is an expression made up of? What do all expressions do?5. This chapter introduced assignment statements, like spam = 10. What is the difference between an expression and a statement?
+
