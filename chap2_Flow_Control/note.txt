@@ -9,10 +9,11 @@ range       iterates from 0 to n-1
 
 importing modules
 import moduleTye
-            random
-            sys
+            random      randome.randint()
+            sys         sys.exit()
             os
             math
+            time        time.sleep(float/int)
 
 from ____ import moduleType
 
