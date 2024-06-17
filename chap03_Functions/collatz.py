@@ -1,8 +1,22 @@
+import sys
 
 def collatz(number):
     if (number % 2 == 0):
-        print(number // 2)
+        number = number // 2
+        print(number)
     else:
-        print(3 * number + 1)
+        number = 3 * number + 1
+        print(number)
+    return number
 
 print("Enter Number:\n")
+try: 
+    num = int(input())
+    while (num != 1):
+        num = collatz(num)
+except ValueError:
+    print("Not a number")
+    sys.exit();
+
+
+
