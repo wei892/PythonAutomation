@@ -1,0 +1,26 @@
+Chapter 2 - Flow control
+
+break       helps yu break out of a while loop
+continue    moves to the next iteration
+range       iterates from 0 to n-1
+            accepts three parameters
+                (start, end, step) 
+                where step is how many steps and if negative, backwards
+
+importing modules
+import moduleTye
+            random      randome.randint()
+            sys         sys.exit()
+            os
+            math
+            time        time.sleep(float/int)
+
+from ____ import moduleType
+
+**the difference between them is that you still hvae to spell out the former 
+----example:----
+former:     random.randint(num, num2)
+latter:     randint(num, num2)
+
+
+sys.exit()      Terminates a program
