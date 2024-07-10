@@ -1,8 +1,0 @@
-Chapter 3 - functions
-
-Exception Handling
-try :
-    # code
-
-except <exceptionType>
-            #ZeroDivisionError
